@@ -14,12 +14,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          name: Installing newest cython-indicators package locally
-          command: "sudo python setup.py install"
-
-      - run:
           name: Running unit tests
-          command: "python -m pytest"
+          command: "python3 -m pytest"
 
 
   deploy:

@@ -1,5 +1,6 @@
 import unittest
-import indicators
+import pyximport; pyximport.install()
+import src.indicators as indicators
 import numpy as np
 
 values = np.array([12.0, 14.0, 64.0, 32.0, 53.0])
