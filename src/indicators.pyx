@@ -1,7 +1,7 @@
-import numpy as np 
+import numpy as np
 from libc.math cimport sqrt
 from libc.stdlib cimport malloc, free
-from cpython cimport array
+
 
 cpdef float SMA(double[:] closes, int period):
         """
