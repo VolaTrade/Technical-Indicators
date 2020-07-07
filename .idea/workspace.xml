@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cff3084-800c-426f-8c49-d4204525e625" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indicators.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/indicators.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <updated>1588545089497</updated>
       <workItem from="1588545094429" duration="183000" />
       <workItem from="1594096977806" duration="4883000" />
-      <workItem from="1594104244989" duration="1844000" />
+      <workItem from="1594104244989" duration="2279000" />
     </task>
     <servers />
   </component>

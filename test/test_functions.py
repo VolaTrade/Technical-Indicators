@@ -1,6 +1,11 @@
+import sys
+import os
 import unittest
-import indicators
 import numpy as np
+sys.path.append(os.path.dirname(os.getcwd()))
+import indicators
+
+
 values = np.array([12.0, 14.0, 64.0, 32.0, 53.0])
 values1 = np.array([1.,2.,3.,4.,5.])
 float_format = lambda number: float("{:.2f}".format(number))
