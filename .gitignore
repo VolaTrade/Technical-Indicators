@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/Indicators.egg-info/*
-/src/indicators.egg-info/*
-/src/build/*
-/src/dist/*
-/src/*.egg-info
-dist
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -147,4 +139,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
->>>>>>> b0f839bf12c0de5ec884f59686fa3f7ae7408872
