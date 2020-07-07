@@ -4,4 +4,4 @@
 /src/dist/*
 /src/*.egg-info
 dist
-.idea
+.idea/
