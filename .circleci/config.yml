@@ -3,7 +3,6 @@ version: 2.1
 orbs:
   python: circleci/python@0.2.1
 
-
 jobs:
   build:
     executor: python/default
@@ -15,8 +14,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          name: "Running unit tests"
-          command: "cd src/ && python -m pytest tests/Test*.py"
+          name: Running unit tests
+          command: "python -m pytest"
 
 
   deploy:
