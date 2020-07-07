@@ -15,7 +15,7 @@ jobs:
       - python/save-cache
       - run:
           name: Running unit tests
-          command: "python3 -m pytest"
+          command: "make test"
 
 
   deploy:
