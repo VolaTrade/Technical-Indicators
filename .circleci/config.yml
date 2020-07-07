@@ -15,7 +15,7 @@ jobs:
       - python/save-cache
       - run:
           name: Installing newest cython-indicators package locally
-          command: "python setup.py install"
+          command: "sudo python setup.py install"
 
       - run:
           name: Running unit tests
