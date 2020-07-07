@@ -1,3 +1,4 @@
-Cython
+Cython==0.29.17
 setuptools
+pytest
 numpy
