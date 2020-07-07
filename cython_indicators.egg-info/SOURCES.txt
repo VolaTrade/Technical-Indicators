@@ -9,4 +9,4 @@ src/__init__.py
 src/indicators.c
 src/indicators.pyx
 test/__init__.py
-test/test_functions.py
+test/test.py

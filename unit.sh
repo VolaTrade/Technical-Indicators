@@ -1,5 +1,5 @@
 cd src
 ./testing.sh
 cd ../test
-python3.6 -m unittest test_functions.py 
+python3.6 -m unittest test_functions.pyx
 cd ../

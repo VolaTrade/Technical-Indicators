@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cff3084-800c-426f-8c49-d4204525e625" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/indicators.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/src/indicators.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/indicators.cpython-37m-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/indicators.cpython-37m-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/src/indicators.c" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/src/indicators.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/src/indicators.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib.macosx-10.7-x86_64-3.7/src/indicators.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/temp.macosx-10.7-x86_64-3.7/src/indicators.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/temp.macosx-10.7-x86_64-3.7/src/indicators.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cython_indicators.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cython_indicators.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indicators.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/indicators.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/unit.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,7 @@
       <updated>1588545089497</updated>
       <workItem from="1588545094429" duration="183000" />
       <workItem from="1594096977806" duration="4883000" />
-      <workItem from="1594104244989" duration="2279000" />
+      <workItem from="1594104244989" duration="3356000" />
     </task>
     <servers />
   </component>
@@ -84,10 +91,18 @@
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="469" y="162" key="SettingsEditor/0.23.1920.1001/-1680.97.1680.1027@0.23.1920.1001" timestamp="1594100218116" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1594107031856">
+      <screen x="0" y="23" width="1920" height="1001" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1920.1001/-1680.97.1680.1027@0.23.1920.1001" timestamp="1594107031856" />
     <state x="624" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1594104245862">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
     <state x="624" y="356" key="com.intellij.ide.util.TipDialog/0.23.1920.1001/-1680.97.1680.1027@0.23.1920.1001" timestamp="1594104245862" />
+    <state x="616" y="264" width="687" height="518" key="find.popup" timestamp="1594107458269">
+      <screen x="0" y="23" width="1920" height="1001" />
+    </state>
+    <state x="616" y="264" width="687" height="518" key="find.popup/0.23.1920.1001/-1680.97.1680.1027@0.23.1920.1001" timestamp="1594107458269" />
     <state x="690" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594104656266">
       <screen x="0" y="23" width="1920" height="1001" />
     </state>
