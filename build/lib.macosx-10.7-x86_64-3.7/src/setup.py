@@ -10,7 +10,7 @@
 #     with open(requirementPath) as f:
 #         install_requires = f.read().splitlines()
 # setup(
-#     name = "test package",
+#     name = "tests package",
 #     #install_requires=install_requires,
 #     ext_modules = [Extension('testindicators', ['testindicators.pyx'])]
 # )
