@@ -32,12 +32,12 @@ class VerifyVersionCommand(install):
             info = f'Git tag: {tag} does not match the version of this app: {VERSION}'
             sys.exit(info)
 
-
 setup(
     setup_requires=[
             'setuptools>=18.0',
             'cython',
     ],
+
     name="cython_indicators",
     version=VERSION,
     author="Ethen Pociask",
