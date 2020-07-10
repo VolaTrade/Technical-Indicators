@@ -5,7 +5,6 @@ orbs:
 
 jobs:
   build:
-    executor: python/default
     docker:
       - image: circleci/python:3.7.3
     steps:
@@ -28,10 +27,7 @@ jobs:
       - python/save-cache
       - run:
           name: Verify git tag vs version
-          command: |
-            python3 -m venv venv
-            . venv/bin/activate
-            python setup.py verify
+          command: python setup.py verify
       - run:
           name: Initialize .pypirc
           command: |

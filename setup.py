@@ -15,7 +15,6 @@ extensions = [
     )
 ]
 
-
 def readme():
     with open('README.md') as f:
         return f.read()
@@ -35,9 +34,8 @@ class VerifyVersionCommand(install):
 setup(
     setup_requires=[
             'setuptools>=18.0',
-            'cython',
+            'Cython',
     ],
-
     name="cython_indicators",
     version=VERSION,
     author="Ethen Pociask",
@@ -47,7 +45,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/VolaTrade/Technical-Indicators",
     install_requires=[
-        'Cython==0.29.17',
+        'Cython',
         'numpy'
     ],
     packages=find_packages(),
