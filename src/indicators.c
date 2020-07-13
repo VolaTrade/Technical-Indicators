@@ -942,8 +942,8 @@ struct __pyx_memoryviewslice_obj;
 struct __pyx_ctuple_float__and_float__and_float;
 typedef struct __pyx_ctuple_float__and_float__and_float __pyx_ctuple_float__and_float__and_float;
 struct __pyx_opt_args_10indicators_EMA;
-struct __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc;
-typedef struct __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc;
+struct __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc;
+typedef struct __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc;
 
 /* "indicators.pyx":35
  * 
@@ -978,7 +978,7 @@ struct __pyx_opt_args_10indicators_EMA {
  *         """
  *         Fibonacci Bolinger Bands function ... does retracements between ma/upper-band & ma/lower-band
  */
-struct __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc {
+struct __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc {
   float f0;
   float f1;
   float f2;
@@ -1729,7 +1729,7 @@ static PyObject* __pyx_print_kwargs = 0;
 #endif
 
 /* ToPyCTupleUtility.proto */
-static PyObject* __pyx_convert__to_py___pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc);
+static PyObject* __pyx_convert__to_py___pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc);
 
 /* MemviewSliceCopyTemplate.proto */
 static __Pyx_memviewslice
@@ -1793,7 +1793,7 @@ static float __pyx_f_10indicators_MOMENTUM(__Pyx_memviewslice, int, int __pyx_sk
 static float __pyx_f_10indicators_WMA(__Pyx_memviewslice, int, float, int __pyx_skip_dispatch); /*proto*/
 static PyObject *__pyx_f_10indicators_DERIVATIVE(__Pyx_memviewslice, int, int __pyx_skip_dispatch); /*proto*/
 static PyObject *__pyx_f_10indicators_EMA(__Pyx_memviewslice, int, int __pyx_skip_dispatch, struct __pyx_opt_args_10indicators_EMA *__pyx_optional_args); /*proto*/
-static __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_f_10indicators_FIB_BANDS(__Pyx_memviewslice, int, int __pyx_skip_dispatch); /*proto*/
+static __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_f_10indicators_FIB_BANDS(__Pyx_memviewslice, int, int __pyx_skip_dispatch); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -4426,7 +4426,7 @@ static PyObject *__pyx_pf_10indicators_14EMA(CYTHON_UNUSED PyObject *__pyx_self,
  */
 
 static PyObject *__pyx_pw_10indicators_17FIB_BANDS(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_f_10indicators_FIB_BANDS(__Pyx_memviewslice __pyx_v_closes, int __pyx_v_period, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_f_10indicators_FIB_BANDS(__Pyx_memviewslice __pyx_v_closes, int __pyx_v_period, CYTHON_UNUSED int __pyx_skip_dispatch) {
   float __pyx_v_ma;
   float __pyx_v_upper;
   float __pyx_v_lower;
@@ -4437,7 +4437,7 @@ static __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and
   double __pyx_v_lowerOne;
   double __pyx_v_lowerTwo;
   double __pyx_v_lowerThree;
-  __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_r;
+  __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_r;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   PyObject *__pyx_t_2 = NULL;
@@ -4447,7 +4447,7 @@ static __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and
   float __pyx_t_6;
   float __pyx_t_7;
   float __pyx_t_8;
-  __pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_t_9;
+  __pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc __pyx_t_9;
   __Pyx_RefNannySetupContext("FIB_BANDS", 0);
 
   /* "indicators.pyx":166
@@ -4637,7 +4637,7 @@ static PyObject *__pyx_pf_10indicators_16FIB_BANDS(CYTHON_UNUSED PyObject *__pyx
   __Pyx_RefNannySetupContext("FIB_BANDS", 0);
   __Pyx_XDECREF(__pyx_r);
   if (unlikely(!__pyx_v_closes.memview)) { __Pyx_RaiseUnboundLocalError("closes"); __PYX_ERR(0, 160, __pyx_L1_error) }
-  __pyx_t_1 = __pyx_convert__to_py___pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_f_10indicators_FIB_BANDS(__pyx_v_closes, __pyx_v_period, 0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 160, __pyx_L1_error)
+  __pyx_t_1 = __pyx_convert__to_py___pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_f_10indicators_FIB_BANDS(__pyx_v_closes, __pyx_v_period, 0)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 160, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -22530,7 +22530,7 @@ bad:
 #endif
 
 /* ToPyCTupleUtility */
-  static PyObject* __pyx_convert__to_py___pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_ctuple_5bbf__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc value) {
+  static PyObject* __pyx_convert__to_py___pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc(__pyx_ctuple_53720__float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__and_float__etc value) {
     PyObject* item = NULL;
     PyObject* result = PyTuple_New(9);
     if (!result) goto bad;
