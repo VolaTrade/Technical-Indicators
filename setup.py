@@ -6,7 +6,7 @@ from setuptools.command.install import install
 from Cython.Build import cythonize
 
 
-VERSION = 'v0.0.2'
+VERSION = 'v0.0.4'
 
 extensions = [
     Extension(
