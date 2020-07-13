@@ -6,7 +6,7 @@ from setuptools.command.install import install
 from Cython.Build import cythonize
 
 
-VERSION = 'v0.1.8'
+VERSION = 'v0.1.9'
 
 extensions = [
     Extension(
@@ -55,7 +55,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
-        "Topic :: Software Development :: Technical Analysis",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: Internet",
 
